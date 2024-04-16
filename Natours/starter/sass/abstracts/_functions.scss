@@ -1,0 +1,7 @@
+@function generate-gradient($start-color, $end-color) {
+    @return linear-gradient(
+        to right bottom,
+        rgba($start-color, 0.85),
+        rgba($end-color, 0.85)
+    );
+}
